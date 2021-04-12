@@ -22,7 +22,7 @@ algo概念如下
 
       predict(使用前14天資料)
 
-      if(predict漲)
+      if(predict==漲)
 
         賣出
 
@@ -34,7 +34,7 @@ algo概念如下
 
       predict(使用前14天資料)
 
-      if(predict跌)
+      if(predict==跌)
 
         買入
 
