@@ -68,7 +68,7 @@ algo概念如下
 
 資料再輸入進網路前，我都有分別對Open,High,Low,Close做normalized(以下為所有train的mean及std)
 
-![image](https://github.com/qw61116111/AI_homework1/blob/main/image/mean.jpg)
+![image](https://github.com/qw61116111/AI_homework2/blob/main/image/nor.jpg)
 
 訓練時我有先拆9:1的train及val用MSE來驗證網路的收斂效果以及是否過擬和
 
