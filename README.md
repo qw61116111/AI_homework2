@@ -55,7 +55,7 @@ algo概念如下
 
 ![image](https://github.com/qw61116111/AI_homework1/blob/main/image/mean.jpg)
 
-並且在這之前，我有先拆9:1的train及val用MSE來驗證網路的收斂效果以及是否過擬和
+訓練時我有先拆9:1的train及val用MSE來驗證網路的收斂效果以及是否過擬和
 
 直到可以正確收斂以及解決嚴重過擬和問題後，我有把val的資料丟回去trainset裡面一起訓練，以保證testing上的Time series的連續性
 
