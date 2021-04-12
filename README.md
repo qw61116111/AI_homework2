@@ -82,4 +82,12 @@ algo概念如下
 ![image](https://github.com/qw61116111/AI_homework2/blob/main/image/lstm.jpg)
 
 
+預測test的第一天是用train的最後14天的資料預測
+
+預測test的第二天是用train的最後13天的資料預測+Test第一天資料預測
+
+預測test的第三天是用train的最後12天的資料預測+Test第一天資料預測+Test第二天資料預測
+
+以此類推，以下為程式碼
+
 
