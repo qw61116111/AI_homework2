@@ -48,13 +48,16 @@ algo概念如下
 
 我所使用的是pytorch來完成的，並且使用的類神經網路為LSTM，並且輸入資料包含Open,High,Low,Close
 
-並且我是用前十四天預測來預測下一天
 
 以下我針對我的code做一些講解
 
-每張圖在進行訓練的時候，我都有先做normalized的處理，並且maen跟std是之前就先用numpy算好並寫在那邊的
+資料再輸入進網路前，我都有分別對Open,High,Low,Close做normalized(以下為所有train的mean及std)
 
 ![image](https://github.com/qw61116111/AI_homework1/blob/main/image/mean.jpg)
+
+並且在這之前，我有先拆9:1的train及val用MSE來驗證網路的收斂效果以及是否過擬和
+
+直到可以正確收斂以及解決嚴重過擬和問題後，我有把val的資料丟回去trainset裡面一起訓練，以保證testing上的Time series的連續性
 
 接下來是我的dataset的處裡
 遞一部分我把圖都讀進來，並且用for迴圈對每張圖進行減平均除標準差的normalized
