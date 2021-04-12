@@ -79,7 +79,7 @@ algo概念如下
 
 ![image](https://github.com/qw61116111/AI_homework2/blob/main/image/para.jpg)
 
-![image](https://github.com/qw61116111/AI_homework1/blob/main/image/lstm.jpg)
+![image](https://github.com/qw61116111/AI_homework2/blob/main/image/lstm.jpg)
 
 
 最後開始預測test的第一筆，是用整個train最後的14筆資料來預測test的第一天
