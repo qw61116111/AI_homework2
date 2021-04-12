@@ -113,7 +113,7 @@ def test_nor(test_data_csv):
     test_data=zz.T
     return test_data,test_z
 #%%
-epochs = 1500
+epochs = 1200
 
 batch_size = 64
 val_size=200
