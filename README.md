@@ -90,4 +90,4 @@ algo概念如下
 
 以此類推，以下為程式碼
 
-
+![image](https://github.com/qw61116111/AI_homework2/blob/main/image/test.jpg)
