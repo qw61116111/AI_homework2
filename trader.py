@@ -189,7 +189,7 @@ if __name__ == '__main__':
             optimizer.step()
             z+=loss.item()
             
-        #print('train_loss= %.2f,  %d epoch left'%((z/(num_batch+1)),epochs-i))
+        print('train_loss= %.2f,  %d epoch left'%((z/(num_batch+1)),epochs-i))
         
         if (i %50)==0:
             last_price=0
