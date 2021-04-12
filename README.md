@@ -31,7 +31,7 @@ algo概念如下
 
         hold
 
-    else: //staus==賣
+    else: //staus==賣空
 
       predict(使用前14天資料)
 
