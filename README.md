@@ -77,7 +77,7 @@ algo概念如下
 
 接下來我網路的參數以及架構
 
-![image](https://github.com/qw61116111/AI_homework1/blob/main/image/para.jpg)
+![image](https://github.com/qw61116111/AI_homework2/blob/main/image/para.jpg)
 
 ![image](https://github.com/qw61116111/AI_homework1/blob/main/image/lstm.jpg)
 
