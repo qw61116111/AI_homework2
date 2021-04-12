@@ -82,9 +82,4 @@ algo概念如下
 ![image](https://github.com/qw61116111/AI_homework2/blob/main/image/lstm.jpg)
 
 
-最後開始預測test的第一筆，是用整個train最後的14筆資料來預測test的第一天
 
-再把資料往明天做平移，變成用最後13天的train+第1天真實的test，進行test第二天的預測
-
-
-![image](https://github.com/qw61116111/AI_homework1/blob/main/image/out.jpg)
