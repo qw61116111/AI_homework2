@@ -13,21 +13,35 @@
 algo概念如下
 
 if (沒有持股):
+
   staus=random(買,賣空)
 
 esle: //有持股
+
   if staus==買:
+  
     predict(使用前14天資料)
+    
     if(predict漲)
+    
       賣出
+      
     else:
+    
       hold
+      
   else: //staus==賣
+  
     predict(使用前14天資料)
+    
     if(predict跌)
+    
       買入
+      
     else:
+    
       賣
+
 
 ---------------------程式架構----------------------
 
